@@ -1,0 +1,13 @@
+flask
+tensorflow
+keras
+numpy
+nltk
+emoji
+contractions
+langdetect
+scikit-learn
+pandas
+openpyxl
+chartjs
+

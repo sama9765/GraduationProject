@@ -1,0 +1,52 @@
+How to START the Project
+
+Emotion Detection in Text using NLP with Emotion-Aware AI Agent
+
+🔹 Step 1: Open Terminal & Go to Project Folder
+cd Emotion_Detection_NLP
+
+🔹 Step 2: Activate Virtual Environment
+source venv/bin/activate
+
+
+👉 You should see (venv) in terminal.
+.
+🔹 Step 4: Run the Flask Application
+python app.py
+
+🔹 Step 5: Open the Web Application
+
+Open any browser and go to:
+
+http://127.0.0.1:5000/
+
+
+You can now:
+
+Enter text
+
+Detect emotion
+
+See AI Agent response
+
+View emotion probabilities
+
+🛑 How to STOP the Project
+🔹 Method 1 (Recommended)
+
+In the same terminal where the app is running, press:
+
+CTRL + C
+
+
+✔ Flask server stops immediately.
+
+🔹 Method 2 (If App Is Running in Background)
+Step 1: Find Python process
+ps aux | grep python
+
+Step 2: Kill the process
+kill -9 <PID>
+
+
+(Replace <PID> with actual number)
